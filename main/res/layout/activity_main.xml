@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.myjni.MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/static_jni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="静态注册" />
+        <Button
+            android:id="@+id/dy_jni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="动态注册" />
+        <TextView
+            android:id="@+id/sample_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="JNI test"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
